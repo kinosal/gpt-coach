@@ -34,7 +34,10 @@ if "message_history" not in st.session_state:
 # Render Streamlit page
 st.title("Create your personal development plan with your AI coach")
 st.markdown(
-    "This mini-app uses OpenAI's [GPTs](https://platform.openai.com/docs/models/overview) to help you create your individual personal development plan."
+    """
+This mini-app uses OpenAI's [GPTs](https://platform.openai.com/docs/models/overview) to help you create your individual personal development plan.
+You can find the code on [GitHub](https://github.com/kinosal/gpt-coach) and the author on [Twitter/X](https://x.com/kinosal).
+    """
 )
 with st.chat_message("assistant"):
     st.write(
