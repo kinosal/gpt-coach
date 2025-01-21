@@ -1,4 +1,4 @@
-"""Streamlit app to generate Tweets."""
+"""Streamlit app."""
 
 # Import from standard library
 
