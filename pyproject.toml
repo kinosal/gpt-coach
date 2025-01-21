@@ -10,10 +10,12 @@ python = "^3.11"
 openai = "^1.30"
 streamlit = "^1.35"
 
-
 [tool.poetry.group.dev.dependencies]
 watchdog = "^6.0.0"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.packages]]
+include = "gpt_coach"
